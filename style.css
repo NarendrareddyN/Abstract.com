@@ -1,0 +1,96 @@
+.first-line{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: white;
+    height: 80px;
+
+}
+.first-right{
+    display: flex;
+    justify-content: flex-end;
+    margin:auto;
+}
+.first-line > h2{
+text-indent: 5px;
+}
+
+img{
+    height:100px;
+    width:100px;
+}
+.timg{
+    height: 70px;
+    width: 150px;
+    margin-left: 30px;
+}
+.timg:hover{
+    opacity: 0.5;
+}
+.help:hover{
+    text-decoration: underline;
+}
+p{
+    font-style: normal;
+}
+.third-line, .fourth-line, .last-line{
+    display:flex;
+    justify-content: space-evenly;
+}
+.last-line{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+.second-line{
+    text-align: center;
+    padding-top: 100px;
+    height: 350px;
+    width: auto;
+    background-color: rgb(214, 214, 218);
+}
+.center-head{
+    font-size: 60px;
+}
+.sec1 > a , .sec2 > a , .sec3 > a, .sec4 > a {
+    color: white;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+input{
+    height: 50px;
+    width: 600px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.b1{
+    margin-left: 600px;
+    border-color: white;
+    width: 200px;
+    height:60px;
+    
+}
+.b2{
+    margin-left: 30px;
+    background-color: rgb(5, 63, 170);
+    width: 100px;
+    height: 60px;
+}
+.b2:hover{
+    background-color: white;
+    color: black;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -191,6 +191,9 @@ button{
     background-color: black;
     color: white;
 }
+.help-icon{
+    background-color:white;
+}
 .help-icon > a{
     position:fixed;
     bottom: 8px;
@@ -258,4 +261,51 @@ footer {
 }
 footer p{
     font-size: 20px;
+}
+.toogle-button{
+    width:35px;
+    position:absolute;
+    top:40px;
+    right:80px;
+
+}
+.toogle-button span{
+    display:inline-block;
+    height: 2px;
+    width:95%;
+    margin-bottom:6px;
+    background-color: white;
+    float : left;
+    
+}
+@media screen and (min-width:1200px) {
+    .toogle-button{
+        display: none;
+    }
+}
+@media screen and (max-width:792px) {
+    html {
+        width:792px;
+    }
+}
+@media screen and (max-width:768px){
+    .center-head{
+        font-size:64px;
+        line-height:60px;
+        margin-bottom:50px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .toogle-button{
+        display: block;
+    }
+    .header-signin{
+        display: none;
+    }
+
+    
+
+    
+    
 }

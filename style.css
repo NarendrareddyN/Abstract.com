@@ -288,6 +288,13 @@ footer p{
         width:792px;
     }
 }
+@media screen and (max-width:359px) {
+    .header{
+        display: block;
+        
+    }
+}
+
 @media screen and (max-width:768px){
     .center-head{
         font-size:64px;
@@ -299,7 +306,11 @@ footer p{
 @media screen and (max-width:1199px) {
     .toogle-button{
         display: block;
+        float:left;
+        position: fixed;
+        
     }
+    
     .header-signin{
         display: none;
     }
